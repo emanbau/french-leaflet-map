@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popup .leaflet-popup-tip,
+.popup .leaflet-popup-content-wrapper {
+  background: #424242;
+  color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  letter-spacing: 0.25px;
+}
+
+.popup .leaflet-popup-content {
+  min-width: 400px;
+  padding: 15px;
+}
